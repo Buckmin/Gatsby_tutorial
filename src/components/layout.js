@@ -30,6 +30,7 @@ export default function Layout({ children }) {
             margin-bottom: ${rhythm(2)};
             display: inline-block;
             font-style: normal;
+            color: blue;
           `}
         >
           {data.site.siteMetadata.title}

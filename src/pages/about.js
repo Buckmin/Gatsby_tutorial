@@ -1,6 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import { css } from "@emotion/core"
+
+import { rhythm } from "../utils/typography"
 
 export default function About({ data }) {
   return (
