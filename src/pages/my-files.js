@@ -35,7 +35,7 @@ export default function MyFiles({ data }) {
 
 export const query = graphql`
   query {
-    allFile {
+    allFile (sort: { fields: [size]}){
       edges {
         node {
           relativePath
